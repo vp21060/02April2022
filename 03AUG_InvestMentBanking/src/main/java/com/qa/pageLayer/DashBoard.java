@@ -25,18 +25,14 @@ public class DashBoard extends TestBaseClass {
 			
 	}
 	
-@FindBy(xpath="//a[text()='WIPRO']")
+@FindBy(partialLinkText="AXIS")
 private WebElement Move_OnWipro;
 
 public void ClickOnWIPRO()
 {
 	
 Actions act =new Actions(driver);
-act.moveToElement(Move_OnWipro).build().perform();
-act.click();
-
-
-
+act.moveToElement(Move_OnWipro).click().build().perform();
 }
 	
 	

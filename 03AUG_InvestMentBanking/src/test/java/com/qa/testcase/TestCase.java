@@ -15,12 +15,13 @@ public class TestCase extends TestBaseClass{
 		Login.insertPass("vilas@1995");
 		Login.ClickOnLoginBt();
 		Thread.sleep(5000);
-		Dash.EnterCompeny("Wipro");
+		Dash.EnterCompeny("AXIS");
 		Thread.sleep(1000);
 		Dash.ClickOnWIPRO();
+		Thread.sleep(5000);
 	
 		
-;
+
 		
 	}
 	
